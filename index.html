@@ -4,11 +4,12 @@
     <head>
         <title>Quiz para programadores</title>
         <meta name="description" content="Um quiz interativo para testar seus conhecimentos">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
             <h1>Quiz interativo para programadores</h1>
-            <p>Teste seus conhecimentos e veja quantos pontos consegue acumular</p>
+            <p>Teste seus conhecimentos e veja quantos pontos consegue acumular!</p>
         </header>
         <main>
             <section>
@@ -27,7 +28,7 @@
                     <input type="radio" value="Java" id="p1b" name="pergunta1">
                     <label for="p1b">Java</label><br>
                     
-                    <input type="radio" value="HTML" id="p1c" name="pergunta1">
+                    <input type="radio" value="HTML" id="p1c" name="pergunta1" checked>
                     <label for="p1c">HTML</label><br>
                     
                     <input type="radio" value="CSS" id="p1d" name="pergunta1">
@@ -140,12 +141,13 @@
                 <h2>Dê seu feedback:</h2>
                 <fieldset>
                     <legend>Informações de contato:</legend>
-                    <label for="name">Nome:</label>
+                    <label for="name">Nome:</label><br>
                     <input type="text" id="name" name="name" placeholder="Digite seu nome"><br>
-                    <label for="email">Email:</label>
+                    <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" placeholder="Exemplo123@gmail.com"><br>
                     <label for="comment">Feedback:</label><br>
-                    <textarea name="comment" id="comment" rows="4" cols="60" placeholder="Diga o quê achou do quiz..."></textarea>
+                    <textarea name="comment" id="comment" rows="4" cols="60" placeholder="Diga o quê achou do quiz..."></textarea><br>
+                    <button type="submit">Enviar</button>
                 </fieldset>
             </section>
         </main>
