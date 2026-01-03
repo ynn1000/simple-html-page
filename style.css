@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    color: #101205;
+    background-color: #f4f0ea;
+    font-weight: 400;
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+    background-color: #1d20d4;
+    color: #f4f0ea;
+}
+
+main {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 1rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: #1d20d4;
+    color: #f4f0ea;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #1d20d4;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="option"], input[type="comment"], textarea {
+    width: 50%;
+    padding: 0.6rem;
+    border: 2px solid #1d20d4;
+    outline: none;
+}
+
+input[type="date"]{
+    width: 10%;
+    padding: 0.6rem;
+    border: 2px solid #1d20d4;
+    outline: none;
+}
+
+select{
+    cursor : pointer;;
+}
+
+img {
+    widht: 5rem;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: #000000;
+    padding: 0.3rem;
+}
+
+td {
+    text-align: center;
+    padding: 0.2rem;
+}
+
+th {
+    background-color: #1d20d4;
+    color: #f4f0ea;
+    padding: 0.2rem;
+}
+
+summary {
+    background-color: #1d20d4;
+    color: #f4f0ea;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+ol{
+    margin-left: 1.5rem;
+}
+
+li {
+    padding: 0.2rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    background-color: #f4f0ea;
+    color: #101205;
+}
+
+fieldset {
+    border: 2px solid #1d20d4;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #e2e0d5;
+}
+
+fieldset input {
+    border: none;
+}
+
+button {
+    background-color: #1d20d4;
+    color: #f4f0ea;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: #1d20d4;
+    color: #f4f0ea;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
